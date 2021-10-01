@@ -73,9 +73,9 @@ calculate the distance from longitude and latitude  using manhatten distance
 checking score      
 
 #### Perform Hyperparameter tuning by using grid search        
- Again check the model score   
- mse 
- rmse
+1 Again check the model score   
+2 mse   
+3 r2_score
 
 
 
