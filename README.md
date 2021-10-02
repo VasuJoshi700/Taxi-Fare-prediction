@@ -8,29 +8,29 @@ In this project i have been asked to predict amount of taxi fare
 I have Load the data that is available in csv format 
 
 # Summarise the dataset
-checked the rows, columns , and the datatypes of variables 
+Checked the rows, columns , and the datatypes of variables 
 
 # Investigating the null values 
 In this data set there are not any null values but there are some records that contain zeros and negative values
 
-# conducting investigation for outliers 
-there are outliers in Geographical coordinates and in number of passenger traveling 
+# Conducting investigation for outliers 
+There are outliers in Geographical coordinates and in number of passenger traveling 
 
-## outlier treatment of Geogrphical coordinates
+## Outlier treatment of Geogrphical coordinates
 Geographical cordinates of Newyork is:{40.7128° N, 74.0060° W} any cordinates out of the above range are consider as outside from the city and treated as an outliers
 capping the pickup latitude and longitude and dropoff latitude and longitude according to the geographical coordinates of NYC i.e {40.7128° N, 74.0060° W}
 
-## outlier treatment of number of passengers 
+## Outlier treatment of number of passengers 
 
-here in this dataset i observe that in NYC, legally the highest no. of passenger that taxi can have is about 4 at max but in some records there are more than 4 passengers so i have consider them as an outlier by assuming the extreme or any urgent cases.
+Here in this dataset i observe that in NYC, legally the highest no. of passenger that taxi can have is about 4 at max but in some records there are more than 4 passengers so i have consider them as an outlier by assuming the extreme or any urgent cases.
 
 # Feature Engineering
-### distance calculation
-calculate the distance from longitude and latitude  using manhatten distance
+### Distance calculation
+Calculate the distance from longitude and latitude  using manhatten distance
 
-##### converting "date_time_of_pickup" into dtype datetime 
+##### Converting "date_time_of_pickup" into dtype datetime 
 
-##### extracting variables from date-time of pick up
+##### Extracting variables from date-time of pick up
 >>> **Extracting**
 >>>>>>pickup day    
 >>>>>>pickup,day_no.    
@@ -70,12 +70,20 @@ calculate the distance from longitude and latitude  using manhatten distance
 **fit the model into X train and y train data**
 
 ### Evaluate the model    
-checking score      
+Checking score      
 
-#### Perform Hyperparameter tuning by using grid search        
-1 Again check the model score   
-2 mse   
-3 r2_score
+#### Perform Hyperparameter tuning by using grid search   
+
+Image result for what hyperparameters grid search tuning does
+Hyperparameter tuning is choosing a set of optimal hyperparameters for a learning algorithm. A hyperparameter is a model argument whose value is set before the learning process begins. The key to machine learning algorithms is hyperparameter tuning.
+
+# Check the model score   
+
+# MSE
+The mean squared error (MSE) or mean squared deviation (MSD) of an estimator (of a procedure for estimating an unobserved quantity) measures the average of the squares of the errors—that is, the average squared difference between the estimated values and the actual value.
+
+#  r2_score
+The proportion of the variance in the dependent variable that is predictable from the independent variable(s)
 
 
 
