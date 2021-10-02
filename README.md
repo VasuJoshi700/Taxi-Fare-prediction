@@ -63,7 +63,7 @@ Calculate the distance from longitude and latitude  using manhatten distance
 
 **creating the dummies of the variable having object dtype** 
 
-**divide the data data into X and y (independent and dependent variable )**
+**divide the data data into X and y (independent and targeted variable )**
 **split the data into train and test**        
 **import the ensemble model Random forest and save it into the variable**
 
