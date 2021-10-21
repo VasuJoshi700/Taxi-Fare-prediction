@@ -13,10 +13,10 @@ Checked the rows, columns , and the datatypes of variables
 # Investigating the null values 
 In this data set there are not any null values but there are some records that contain zeros and negative values
 
-# Conducting investigation for outliers 
+# Conducting Investigation for Outliers 
 There are outliers in Geographical coordinates and in number of passenger traveling 
 
-## Outlier treatment of Geogrphical coordinates
+## Outlier Treatment of Geogrphical Coordinates
 Geographical cordinates of Newyork is:{40.7128° N, 74.0060° W} any cordinates out of the above range are consider as outside from the city and treated as an outliers
 capping the pickup latitude and longitude and dropoff latitude and longitude according to the geographical coordinates of NYC i.e {40.7128° N, 74.0060° W}
 
@@ -25,7 +25,7 @@ capping the pickup latitude and longitude and dropoff latitude and longitude acc
 Here in this dataset i observe that in NYC, legally the highest no. of passenger that taxi can have is about 4 at max but in some records there are more than 4 passengers so i have consider them as an outlier by assuming the extreme or any urgent cases.
 
 # Feature Engineering
-### Distance calculation
+### Distance Calculation
 Calculate the distance from longitude and latitude  using manhatten distance
 
 ##### Converting "date_time_of_pickup" into dtype datetime 
@@ -61,21 +61,20 @@ Calculate the distance from longitude and latitude  using manhatten distance
 
 # Data Modelling
 
-**creating the dummies of the variable having object dtype** 
+**Creating the dummies of the variable having object dtype** 
 
-**divide the data data into X and y (independent and targeted variable )**
-**split the data into train and test**        
-**import the ensemble model Random forest and save it into the variable**
+**Divide the data data into X and y (independent and targeted variable )**
+**Split the data into train and test**        
+**Import the ensemble model Random forest and save it into the variable**
 
-**fit the model into X train and y train data**
+**Fit the model into X train and y train data**
 
 ### Evaluate the model    
 Checking score      
 
 #### Perform Hyperparameter tuning by using grid search   
 
-Image result for what hyperparameters grid search tuning does
-Hyperparameter tuning is choosing a set of optimal hyperparameters for a learning algorithm. A hyperparameter is a model argument whose value is set before the learning process begins. The key to machine learning algorithms is hyperparameter tuning.
+Grid search is a tuning technique that attempts to compute the optimum values of hyperparameters. It is an exhaustive search that is performed on a the specific parameter values of a model. The model is also known as an estimator. Grid search exercise can save us time, effort and resources. It helps us to find most optima hyperparameters
 
 # Check the model score   
 
