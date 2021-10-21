@@ -65,9 +65,11 @@ Calculate the distance from longitude and latitude  using manhatten distance
 
 **Divide the data data into X and y (independent and targeted variable )**
 **Split the data into train and test**        
-**Import the ensemble model Random forest and save it into the variable**
+**Import the ensemble model Random Forest Regressor  and save it into the variable**
 
 **Fit the model into X train and y train data**
+# Random Forest Regressor
+A random forest regressor. A random forest is an ensemble bagging technique that fits a number of classifying decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting of the number of trees in the forest.
 
 ### Evaluate the model    
 Checking score      
