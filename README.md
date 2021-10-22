@@ -58,8 +58,9 @@ Calculate the distance from longitude and latitude  using manhatten distance
 
 ![bookings in different phrases](https://user-images.githubusercontent.com/87512268/138389141-49b6a5ab-c3b6-485d-9a8a-6ea1f8d544dc.png)
 
-![yearly_fluctuation_amount](https://user-images.githubusercontent.com/87512268/138389410-6a1d4516-575f-433b-8b8e-bdd7d3d21e85.png)
+![bookings in different phrases](https://user-images.githubusercontent.com/87512268/138390215-be5204f5-ea04-4182-bb8b-9a4c3f1cad36.png)
 
+![yearly_fluctuation in amount](https://user-images.githubusercontent.com/87512268/138390476-1374358b-cea4-46d4-95d7-6b4394558f09.png)
 
 # Data Modelling
 
