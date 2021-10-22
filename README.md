@@ -56,9 +56,7 @@ Calculate the distance from longitude and latitude  using manhatten distance
 ![taxi line last](https://user-images.githubusercontent.com/87512268/135576369-bad3376a-27df-48f9-8df6-96292b4fdd29.png)
 ![taxi bar last](https://user-images.githubusercontent.com/87512268/135576834-35d8de02-6922-4be9-964b-3a9efb59af88.png)
 
-![bookings in different phrases](https://user-images.githubusercontent.com/87512268/138389141-49b6a5ab-c3b6-485d-9a8a-6ea1f8d544dc.png)
-
-![bookings in different phrases](https://user-images.githubusercontent.com/87512268/138390215-be5204f5-ea04-4182-bb8b-9a4c3f1cad36.png)
+![bookings in different phrases](https://user-images.githubusercontent.com/87512268/138390622-66d23ae9-0840-4003-a591-190c327e2176.png)
 
 ![yearly_fluctuation in amount](https://user-images.githubusercontent.com/87512268/138390476-1374358b-cea4-46d4-95d7-6b4394558f09.png)
 
