@@ -1,19 +1,24 @@
 # Taxi-Fare-prediction
 In this project i have been asked to predict amount of taxi fare 
 # Packages used
->> os , pandas , matplotlib, seabron, Numpy, sklearn 
+>> os , pandas , matplotlib, seaborn, Numpy, sklearn 
 # Approach
+The problem is to determine the behaviour of the taxi
+Fare in Newyork city. I have performed Machine learning to 
+Train the system with variables with past records so that it 
+Will help to determine the amount charges by taxi fare in near future 
+in respect of other independent variables.
 
 **_Loading the data_**   
 I have Load the data that is available in csv format 
 
-# Summarise the dataset
+## Summarise the dataset
 Checked the rows, columns , and the datatypes of variables 
 
-# Investigating the null values 
+## Investigating the null values 
 In this data set there are not any null values but there are some records that contain zeros and negative values
 
-# Conducting Investigation for Outliers 
+## Conducting Investigation for Outliers 
 There are outliers in Geographical coordinates and in number of passenger traveling 
 
 ## Outlier Treatment of Geogrphical Coordinates
